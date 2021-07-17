@@ -31,5 +31,5 @@ jobs:
            id
           host: ks2.pknw1.co.uk
           user: docker
-          key: ${{ secrets.KS2}}
+          pass: ${{ secrets.PASS}}
           args: -tt
