@@ -28,8 +28,7 @@ jobs:
         uses: fifsky/ssh-action@master
         with:
           command: |
-           cd /
-           ls -a
+           id
           host: ks2.pknw1.co.uk
           user: docker
           key: ${{ secrets.KS2}}
